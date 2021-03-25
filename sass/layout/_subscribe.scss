@@ -1,5 +1,7 @@
 .subscribe {
   @include respond(tablet) {
+    font-family: $font-face-primary !important ;
+    font-size: $font-size-p-regular !important;
     max-width: 500px;
     margin: 0 auto;
   }
@@ -11,19 +13,24 @@
 
     &__button {
       margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       padding: 1rem;
       width: 150px;
       text-align: center;
-      background-color: $color-cupcake-lightPink;
+      background-color: $color-cupcake-mediumPink;
       color: $color-black;
       padding: 12px 20px;
-      border: none;
+      border: none !important;
       border-radius: 4px;
       cursor: pointer;
+      @include bs-light;
+
+      @include respond(laptop) {
+        font-size: $font-size-p-regular;
+      }
 
       &:hover {
-        background-color: $color-cupcake-mediumPink;
+        background-color: $color-cupcake-darkPink;
         transform: scale(1.1);
       }
 

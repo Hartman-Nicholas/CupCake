@@ -60,18 +60,20 @@
   }
 }
 
+.nav-toggle {
+  position: fixed;
+
+  background: $color-white;
+  border-radius: 50%;
+  @include respond(tablet) {
+    top: 4rem;
+    right: 4rem;
+  }
+}
+
 .nav-open {
   .nav {
     transform: translateX(0%);
-  }
-
-  .nav-toggle {
-    position: fixed;
-
-    @include respond(tablet) {
-      top: 4rem;
-      right: 4rem;
-    }
   }
 
   .hamburger {

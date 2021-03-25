@@ -7,7 +7,7 @@
       rgba($color-cupcake-beige, 0.7)
     );
     border-radius: 6px;
-    transition: 0.8s ease-in-out;
+    transition: 0.5s ease-in-out;
 
     &:hover {
       background-color: $color-cupcake-darkPink;
@@ -23,6 +23,7 @@
   }
 
   &--subHeading {
+    position: relative;
     text-align: center;
     padding: 4rem;
     margin-top: 2rem;
@@ -30,6 +31,16 @@
     font-size: $font-size-h2-regular;
     letter-spacing: 5px;
     text-transform: uppercase;
+
+    &::after {
+      content: "";
+
+      display: block;
+      width: 20rem;
+      height: 1px;
+      margin: 0.5em auto 1em;
+      background: $color-cupcake-darkLilac;
+    }
   }
 
   &--img {

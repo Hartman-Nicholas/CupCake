@@ -1,7 +1,6 @@
 .header {
   text-align: center;
   height: 95vh;
-  border-radius: 6px;
 
   background-image: linear-gradient(
       to right bottom,
@@ -12,6 +11,10 @@
   background-size: cover;
   background-position: top;
   @include bs;
+
+  @include respond(tablet) {
+    border-radius: 6px;
+  }
 
   &__img {
     display: block;
@@ -29,7 +32,6 @@
   }
 
   &__head {
-    position: relative;
     font-weight: $font-weight-medium;
 
     padding: 2rem;

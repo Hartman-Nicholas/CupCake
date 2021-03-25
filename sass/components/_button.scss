@@ -1,0 +1,20 @@
+.linkButton {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 150px;
+  text-align: center;
+  background-color: $color-cupcake-mediumPink;
+  color: $color-black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: $font-size-p-regular;
+  @include bs-light;
+
+  &:hover {
+    background-color: $color-cupcake-darkPink;
+    transform: scale(1.1);
+  }
+}
