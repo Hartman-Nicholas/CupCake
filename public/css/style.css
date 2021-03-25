@@ -229,6 +229,15 @@ p {
     letter-spacing: 1rem;
     color: #77515b; }
 
+.about {
+  background-image: linear-gradient(to right bottom, rgba(216, 226, 220, 0.7), rgba(255, 229, 217, 0.7)), url(../img/04_background.jpg); }
+
+.products {
+  background-image: linear-gradient(to right bottom, rgba(216, 226, 220, 0.7), rgba(255, 229, 217, 0.7)), url(../img/02_background.jpg); }
+
+.contact {
+  background-image: linear-gradient(to right bottom, rgba(216, 226, 220, 0.7), rgba(255, 229, 217, 0.7)), url(../img/03_background.jpg); }
+
 .nav {
   position: fixed;
   background: linear-gradient(0deg, #9d8189 0%, #f4acb7 100%);

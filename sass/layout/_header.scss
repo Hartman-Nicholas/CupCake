@@ -48,3 +48,30 @@
     color: $color-cupcake-darkLilac;
   }
 }
+
+.about {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-cupcake-grey, 0.7),
+      rgba($color-cupcake-beige, 0.7)
+    ),
+    url(../img/04_background.jpg);
+}
+
+.products {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-cupcake-grey, 0.7),
+      rgba($color-cupcake-beige, 0.7)
+    ),
+    url(../img/02_background.jpg);
+}
+
+.contact {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-cupcake-grey, 0.7),
+      rgba($color-cupcake-beige, 0.7)
+    ),
+    url(../img/03_background.jpg);
+}
