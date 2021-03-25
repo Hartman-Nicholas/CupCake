@@ -1,0 +1,31 @@
+.home {
+  position: relative;
+  min-height: 95vh;
+}
+
+.content-wrap {
+  padding-bottom: 25rem;
+
+  @include respond(tablet-land) {
+    padding-bottom: 10rem;
+  }
+}
+
+.content--paragraph {
+  margin-top: 3rem;
+}
+
+.content {
+  background-color: $color-white;
+  padding: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  @include bs;
+  border-radius: 6px;
+
+  @include respond(tablet) {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

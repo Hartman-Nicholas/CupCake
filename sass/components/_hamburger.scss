@@ -1,0 +1,31 @@
+.hamburger {
+  display: block;
+  position: relative;
+  color: $color-grey-dark-1;
+
+  &,
+  &::before,
+  &::after {
+    background: $color-black;
+    width: 2rem;
+    height: 2px;
+    border-radius: 1rem;
+    transition: transform 250ms ease-in-out;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  &::before {
+    top: 8px;
+  }
+
+  &::after {
+    bottom: 8px;
+  }
+}

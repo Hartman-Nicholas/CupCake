@@ -1,0 +1,12 @@
+.grid-container-column {
+  position: relative;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  margin: 0 auto;
+
+  @include respond(laptop) {
+    gap: 6rem;
+  }
+}

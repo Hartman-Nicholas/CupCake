@@ -1,0 +1,25 @@
+body {
+  font-family: $font-face-primary;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-body;
+  line-height: 1.7;
+  color: $color-grey-dark-1;
+}
+
+h3 {
+  color: $color-grey-dark-1;
+  font-size: $font-size-h3-regular;
+}
+
+h2 {
+  color: $color-cupcake-darkLilac;
+  font-size: $font-size-h2-regular;
+}
+
+p {
+  font-size: $font-size-p-regular;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}

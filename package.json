@@ -1,0 +1,14 @@
+{
+  "name": "cupcake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Header.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
