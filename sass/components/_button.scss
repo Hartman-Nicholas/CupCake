@@ -11,7 +11,7 @@
   border-radius: 4px !important;
   cursor: pointer !important;
   font-size: $font-size-p-regular !important;
-  @include bs-light !important;
+  @include bs-light;
 
   &:hover {
     background-color: $color-cupcake-darkPink !important;
