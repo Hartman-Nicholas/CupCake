@@ -1,6 +1,10 @@
 .header {
   text-align: center;
-  height: 95vh;
+  height: 40vh;
+
+  @include respond(laptop) {
+    height: 50vh;
+  }
 
   background-image: linear-gradient(
       to right bottom,
@@ -9,7 +13,7 @@
     ),
     url(../img/05_cupcake.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   @include bs;
 
   @include respond(tablet) {
@@ -20,14 +24,14 @@
     display: block;
     position: relative;
     border-radius: 50%;
-    width: 50%;
+    width: 100px;
     top: 3rem;
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #555;
 
-    @include respond(laptop) {
-      width: 400px;
+    @include respond(tablet) {
+      width: 200px;
     }
   }
 

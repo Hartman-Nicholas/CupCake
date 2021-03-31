@@ -1,4 +1,20 @@
 .section__products {
+  &-cupCake {
+    padding: 1rem;
+
+    @include respond(tablet) {
+      padding: 0rem;
+    }
+  }
+
+  &-weddingCake {
+    padding: 1rem;
+
+    @include respond(tablet) {
+      padding: 0rem;
+    }
+  }
+
   &--item {
     padding: 2rem;
     background-image: linear-gradient(
